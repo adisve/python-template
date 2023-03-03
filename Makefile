@@ -20,5 +20,8 @@ check-venv:
 		exit 1; \
 	fi
 
+pylint: check-venv
+	@find app/ -name '*.py' -print0 | xargs -0 pylint -d C0103 -rn
+
 test: check-venv
 	$(PYTHON) -m unittest discover -p 'test_*.py' -v -b

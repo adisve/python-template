@@ -18,6 +18,8 @@
 
 ## 🧐 About <a name = "about"></a>
 
+This is a general template for an Python project you want to start working on.
+
 *Here you can add 1-2 paragraphs on information about the project*
 
 ## 👨‍💻 Description <a name = "description"></a>
